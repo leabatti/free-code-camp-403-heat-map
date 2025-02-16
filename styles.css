@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+#container {
+  font-family: "Montserrat", sans-serif;
+  background-color: lightgrey;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+  margin: 50px auto auto auto; /* Para centrar horizontalmente */
+  width: 90%; /* Ajusta el ancho según tus necesidades */
+  border-radius: 15px; /* Bordes redondeados */
+  position: relative;
+  max-width: 90%; /* Ajusta el ancho máximo */
+}
+
+#description {
+  font-size: 20px;
+  color: black;
+}
+
+#tooltip {
+  font-size: 14px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.cell:hover {
+  stroke: orange;
+  stroke-width: 2px;
+}
+
+#legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.legend-cell {
+  width: 85px;
+  height: 25px;
+  margin: 0 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.legend-label {
+  font-size: 16px;
+  color: black;
+}
